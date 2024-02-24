@@ -201,7 +201,7 @@ router.post(
   }
 );
 
-// POST
+// For the POST
 
 router.post("/register", function (req, res) {
   const user = new userModel({
